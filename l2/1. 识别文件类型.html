@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	a {
+		margin: 5px 0;
+		display: block;
+	}
+
+	a[href$=jpg]:before {
+		content: 'jpg '
+	}
+
+	a[href$=png]:before {
+		content: 'png '
+	}
+
+	a[href$=gif]:before {
+		content: 'gif '
+	}
+</style>
+<body>
+	<a href="http://url.com/name=name.jpg">文件</a>
+	<a href="http://url.com/name=name.png">文件</a>
+	<a href="http://url.com/name=name.gif">文件</a>
+</body>
+</html>
