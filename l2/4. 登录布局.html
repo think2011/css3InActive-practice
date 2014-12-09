@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	#login {
+		width:400px;
+		padding:1em 2em 0 2em;
+		font-size: 12px;
+	}
+
+	label {
+		line-height: 26px;
+		display: block;
+		font-weight: bold;
+	}
+
+	#name, #password {
+		border:1px solid #ccc;
+		width:160px;
+		height:22px;
+		padding-left: 20px;
+		margin:6px 0;
+		line-height: 20px;
+	}
+
+	#name {
+		background: url(images/name.gif) no-repeat 3px 3px
+	}
+
+	#password {
+
+		background: url(images/password.gif) no-repeat 3px 3px
+	}
+
+</style>
+<body>
+<dl>
+<fieldset id="login">
+    <legend>用户登录</legend>
+    <form action="" method="POST" class="form">
+        <label for="name">姓名
+            <input name="name" type="text"  id="name" value="" />
+        </label>
+        <label for="password">密码
+            <input name="password" type="text" id="password" value="" />
+        </label>
+        <input type="image"  class="button" src="images/login1.gif" />
+    </form>
+</fieldset>
+</dl>
+</body>
+</html>
