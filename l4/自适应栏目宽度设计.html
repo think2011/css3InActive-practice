@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin:0;
+			padding: 0;
+		}
+		
+		#box {
+			text-align: center;
+			margin:0 auto;
+			display: -webkit-box;
+			-webkit-box-orient: horizontal;
+		}
+		
+		#box1 {
+			width: 201px;
+		}
+		
+		#box2, #box3 {
+			border:1px solid #ccc;
+			margin:2px;
+		}
+
+		#box2 {
+			-webkit-box-flex:1;
+		}
+
+		#box3 {
+			-webkit-box-flex:1;
+		}
+
+		#box2 div, #box3 div { display:inline; }
+
+	</style>
+</head>
+<body>
+<div id="box">
+    <div id="box1"><img src="images/web3_01.gif" /></div>
+    <div id="box2">
+        <h2><img src="images/web3_02.gif" /></h2>
+        <div><img src="images/web3_04.gif" /></div>
+        <div><img src="images/web3_05.gif" /></div>
+        <div><img src="images/web3_06.gif" /></div>
+        <div><img src="images/web3_07.gif" /></div>
+    </div>
+    <div id="box3">
+        <h2><img src="images/web3_12.gif" /></h2>
+        <div><img src="images/web3_08.gif" /></div>
+        <div><img src="images/web3_09.gif" /></div>
+        <div><img src="images/web3_10.gif" /></div>
+        <div><img src="images/web3_11.gif" /></div>
+    </div>
+</div>
+</body>
+</html>
